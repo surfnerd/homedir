@@ -7,9 +7,9 @@ I put this here for myself, but if you'd like to fork and use it, here are some 
 
 This script assumes the names of your files are exactly the same as mine `¯\_(ツ)_/¯`
 
-This will rename your old files with the suffix `-old` and create symbolic links to the files in the homedir directory.
+This will rename your old files with the suffix `-old` and create symbolic links to the files in the `homedir` directory.
 
-Obviously this is my own personal configuration, but it's simple enough without too much fluff and gets the jorb done.
+Obviously this is my own personal configuration, but it's simple enough without too much fluff and gets the jorb done.  Maybe it will help someone.
 
 I got stuff from
 https://github.com/tomasr/molokai 
