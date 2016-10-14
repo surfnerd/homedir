@@ -51,3 +51,6 @@ let g:ctrlp_max_files = 0
 let g:ctrlp_working_path_mode = 0
 
 au BufRead,BufNewFile *.bindings set filetype=cs
+hi Normal ctermbg=none
+highlight NonText ctermbg=none
+highlight LineNr ctermbg=none
