@@ -39,6 +39,7 @@ let mapleader=" "
 nnoremap <SPACE> <Nop>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
+inoremap { {<CR>}<Esc>ko
 
 " ctrlp
 set runtimepath^=~/.vim/bundle/ctrlp.vim
@@ -50,7 +51,6 @@ let g:ctrlp_max_files = 0
 " Search from current directory instead of project root
 let g:ctrlp_working_path_mode = 0
 
-au BufRead,BufNewFile *.bindings set filetype=cs
-hi Normal ctermbg=none
-highlight NonText ctermbg=none
-highlight LineNr ctermbg=none
+" custom file types
+au BufNewFile,BufRead *.bindings setlocal ft=cs
+au BufRead,BufNewFile *.jam setlocal ft=jam
