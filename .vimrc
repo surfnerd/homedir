@@ -16,6 +16,7 @@ set cursorline
 set cursorcolumn
 set wildmenu
 set lazyredraw
+set laststatus=2
 set statusline+=%F
 
 " tabs
