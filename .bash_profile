@@ -18,3 +18,4 @@ alias ll="ls -al"
 alias tmux="TERM=screen-256color-bce tmux"
 alias sfind=mdfindonlyin
 alias sfindg=mdfindonlyingrep
+alias vim="mvim -v"
