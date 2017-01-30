@@ -40,7 +40,7 @@ let mapleader=" "
 nnoremap <SPACE> <Nop>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
-inoremap { {<CR>}<Esc>ko
+inoremap { {}<Esc>i
 
 " ctrlp
 set runtimepath^=~/.vim/bundle/ctrlp.vim
