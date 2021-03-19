@@ -16,11 +16,13 @@ then
 	mv ~/.bash_profile ~/.bash_profile-old
 	mv ~/.tmux.conf ~/.tmux.conf-old
 	mv ~/.gitconfig ~/.gitconfig-old
+    mv ~/.zshrc ~/.zshrc.old
 	ln -s ~/homedir/.vim ~/.vim
 	ln -s ~/homedir/.vimrc ~/.vimrc
 	ln -s ~/homedir/.bash_profile ~/.bash_profile
 	ln -s ~/homedir/.tmux.conf ~/.tmux.conf
 	ln -s ~/homedir/.gitconfig ~/.gitconfig
+	ln -s ~/homedir/.zshrc ~/.zshrc
 	echo "updated your configurations"
 
 elif [[ $1 == "clean" ]]

@@ -5,7 +5,7 @@
     required = true
 [user]
 	name = Christopher Goy
-	email = goyenator@gmail.com
+	email = christopherg@unity3d.com
 [alias]
     unstage = reset HEAD --
     co = checkout

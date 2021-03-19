@@ -21,7 +21,9 @@ alias sfindg=mdfindonlyingrep
 alias vim="mvim -v"
 
 # added by Miniconda3 4.2.12 installer
-export PATH="/Users/goy/miniconda3/bin:$PATH"
+#export PATH="/Users/goy/miniconda3/bin:$PATH"
 
 # added by Anaconda3 4.2.0 installer
-export PATH="/Users/goy/anaconda3/bin:$PATH"
+#export PATH="/Users/goy/anaconda3/bin:$PATH"
+
+export PATH="/Users/goy/anaconda3/bin:/usr/local/go/bin:$PATH"

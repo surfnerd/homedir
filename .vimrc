@@ -79,6 +79,7 @@ let g:ctrlp_working_path_mode = 0
 " custom file types
 au BufRead,BufNewFile *.bindings set filetype=cs
 au BufRead,BufNewFile *.jam setlocal ft=jam
+au BufNewFile,BufRead *.sol setf solidity
 
 autocmd FileType r if string(g:SendCmdToR) == "function('SendCmdToR_fake')" | call StartR("R") | endif
 autocmd FileType rmd if string(g:SendCmdToR) == "function('SendCmdToR_fake')" | call StartR("R") | endif
